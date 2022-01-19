@@ -1,7 +1,7 @@
 version := "0.1.1"
 
 download:
-    wget https://github.com/manojkarthick/github-upload-asset/releases/download/v0.1.1/github-upload-asset-0.1.1-darwin-all.tar.gz -O github-upload-asset-mac.tar.gz
+    wget https://github.com/manojkarthick/github-upload-asset/releases/download/v{{version}}/github-upload-asset-{{version}}-darwin-all.tar.gz -O github-upload-asset-mac.tar.gz
 
 checksum:
     shasum -a 256 github-upload-asset-mac.tar.gz
